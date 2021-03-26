@@ -1,0 +1,404 @@
+{
+  "tests": [
+    {
+      "name": "Test01",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n1\r\n2021",
+      "output": "31(\n|.)*12(\n|.)*2020",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test02",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "21\r\n1\r\n2021",
+      "output": "20(\n|.)*1(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test03",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "31\r\n1\r\n2021",
+      "output": "30(\n|.)*1(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test04",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n2\r\n2021",
+      "output": "31(\n|.)*1(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test05",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "27\r\n2\r\n2021",
+      "output": "26(\n|.)*2(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test06",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "28\r\n2\r\n2021",
+      "output": "27(\n|.)*2(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test07",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n3\r\n2021",
+      "output": "28(\n|.)*2(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test08",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "20\r\n3\r\n2021",
+      "output": "19(\n|.)*3(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test09",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "31\r\n3\r\n2021",
+      "output": "30(\n|.)*3(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n4\r\n2021",
+      "output": "31(\n|.)*3(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test11",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "2\r\n4\r\n2021",
+      "output": "1(\n|.)*4(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test12",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "30\r\n4\r\n2021",
+      "output": "29(\n|.)*4(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test13",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n5\r\n2021",
+      "output": "30(\n|.)*4(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test14",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "14\r\n5\r\n2021",
+      "output": "13(\n|.)*5(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test15",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "31\r\n5\r\n2021",
+      "output": "30(\n|.)*5(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test16",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n6\r\n2021",
+      "output": "31(\n|.)*5(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test17",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "4\r\n6\r\n2021",
+      "output": "3(\n|.)*6(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test18",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "30\r\n6\r\n2021",
+      "output": "29(\n|.)*6(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test19",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n7\r\n2021",
+      "output": "30(\n|.)*6(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test20",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "11\r\n7\r\n2021",
+      "output": "10(\n|.)*7(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test21",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "31\r\n7\r\n2021",
+      "output": "30(\n|.)*7(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test22",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n8\r\n2021",
+      "output": "31(\n|.)*7(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test23",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "25\r\n8\r\n2021",
+      "output": "24(\n|.)*8(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test24",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "31\r\n8\r\n2021",
+      "output": "30(\n|.)*8(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test25",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n9\r\n2021",
+      "output": "31(\n|.)*8(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test26",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "13\r\n9\r\n2021",
+      "output": "12(\n|.)*9(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test27",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "30\r\n9\r\n2021",
+      "output": "29(\n|.)*9(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test28",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n10\r\n2021",
+      "output": "30(\n|.)*9(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test29",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "14\r\n10\r\n2021",
+      "output": "13(\n|.)*10(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test30",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "31\r\n10\r\n2021",
+      "output": "30(\n|.)*10(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test31",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n11\r\n2021",
+      "output": "31(\n|.)*10(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test32",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "16\r\n11\r\n2021",
+      "output": "15(\n|.)*11(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test33",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "30\r\n11\r\n2021",
+      "output": "29(\n|.)*11(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test34",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n12\r\n2021",
+      "output": "30(\n|.)*11(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test35",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "14\r\n12\r\n2021",
+      "output": "13(\n|.)*12(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test36",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "31\r\n12\r\n2021",
+      "output": "30(\n|.)*12(\n|.)*2021",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test37",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n3\r\n2000",
+      "output": "29(\n|.)*2(\n|.)*2000",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test38",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n3\r\n2016",
+      "output": "29(\n|.)*2(\n|.)*2016",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test39",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n3\r\n2100",
+      "output": "28(\n|.)*2(\n|.)*2100",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test40",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 dia_anterior.py",
+      "input": "1\r\n3\r\n2015",
+      "output": "28(\n|.)*2(\n|.)*2015",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
