@@ -1,6 +1,6 @@
-<mxfile>
+<mxfile host="65bd71144e">
     <diagram id="x28gWw-vFMMnM6PrvLHF" name="Día siguiente">
-        <mxGraphModel dx="1469" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+        <mxGraphModel dx="1806" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -25,7 +25,7 @@
                 <mxCell id="UfHWgThy5PjR0i4prVAl-25" value="día,&lt;br&gt;mes,&lt;br&gt;año&lt;br&gt;(originales)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;strokeColor=#82b366;" parent="UfHWgThy5PjR0i4prVAl-24" vertex="1">
                     <mxGeometry width="117" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="UfHWgThy5PjR0i4prVAl-26" value="Sumar 1 a día&lt;br&gt;Si día se pasa del último del mes,&lt;br&gt;&amp;nbsp; &amp;nbsp;regresar día a 1 y&lt;br&gt;&amp;nbsp; &amp;nbsp;sumar 1 a mes.&lt;br&gt;Si mes se pasa de 12,&lt;br&gt;&amp;nbsp; &amp;nbsp;regresar minutos a 0 y&lt;br&gt;&amp;nbsp; &amp;nbsp;sumar 1 a año." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;align=left;strokeColor=#d79b00;" parent="UfHWgThy5PjR0i4prVAl-24" vertex="1">
+                <mxCell id="UfHWgThy5PjR0i4prVAl-26" value="Sumar 1 a día&lt;br&gt;Si día se pasa del último del mes,&lt;br&gt;&amp;nbsp; &amp;nbsp;regresar día a 1 y&lt;br&gt;&amp;nbsp; &amp;nbsp;sumar 1 a mes.&lt;br&gt;Si mes se pasa de 12,&lt;br&gt;&amp;nbsp; &amp;nbsp;regresar mes a 1 y&lt;br&gt;&amp;nbsp; &amp;nbsp;sumar 1 a año." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;align=left;strokeColor=#d79b00;" parent="UfHWgThy5PjR0i4prVAl-24" vertex="1">
                     <mxGeometry x="117" width="183" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="UfHWgThy5PjR0i4prVAl-27" value="día,&lt;br&gt;mes,&lt;br&gt;año&lt;br&gt;(un día después)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;strokeColor=#6c8ebf;" parent="UfHWgThy5PjR0i4prVAl-24" vertex="1">
