@@ -1,17 +1,29 @@
-    name: GitHub Classroom Workflow
+name: GitHub Classroom Workflow
 
-    on:
-      push:
-        paths:
-          - 'dia_anterior.py'
-          - '.github/classroom/autograding.json'
+on:
+  push:
+    branches:
+      - '*'
+      - '!feedback'
+    paths:
+      - 'dia_anterior.py'
+      - '.github/classroom/autograding.json'
 
-    jobs:
-      build:
-        name: Autograding
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v2
-          - uses: education/autograding@v1
-        env:
-          LANG: C.UTF-8
+  # Allows this workflow to be run manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  grade:
+    name: Autograding
+    #if: ${{ !github.event.repository.is_template }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: education/autograding@v1
+    env:
+      LANG: C.UTF-8
